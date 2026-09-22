@@ -1,0 +1,24 @@
+{
+ "note": "迁移的恢复队列，不是完整投递历史；提交前必须查询共享历史。blocked 不得自动转 ready。",
+ "companies": [
+  {
+   "company": "示例公司A",
+   "status": "ready",
+   "reason": "核实记录：岗位=XXX（官方链接）、地点=XX、毕业窗口=20XX届（出处）、志愿规则=N志愿可改M次（出处）、共享历史grep无重复。附件=简历版本。",
+   "next_action": "本轮行动的第一步"
+  },
+  {
+   "company": "示例公司B",
+   "status": "blocked",
+   "reason": "【失败/暂停依据+日期】恢复条件：____。恢复点：____（页面状态/已填字段/会话有效期）。",
+   "next_action": "恢复条件满足后的第一步"
+  },
+  {
+   "company": "示例公司C",
+   "status": "submitted",
+   "submitted_at": "20XX-XX-XX",
+   "position": "岗位全名（与官方成功页一致）",
+   "evidence": "证据/示例公司C_岗位_日期.png（官方成功文案摘录）"
+  }
+ ]
+}
