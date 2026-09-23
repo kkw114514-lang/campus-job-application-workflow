@@ -1,0 +1,20 @@
+# 个人运行数据
+/材料库/
+/队列/application-state.json
+/共享历史.md
+/进度记录.md
+/证据/
+/岗位评估卡/
+/看板/*.html
+/本地攻略/
+# 凭证、浏览器状态、临时文件
+.env
+.env.*
+*账号*.json
+*storage-state*.json
+*storageState*.json
+browser-profile/
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store

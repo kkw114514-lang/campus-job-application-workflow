@@ -1,0 +1,35 @@
+{
+  "schema_version": "2.1",
+  "mode": "assist",
+  "applications": [
+    {
+      "application_id": "example-only",
+      "company_id": "example-company",
+      "company": "示例公司（不可执行）",
+      "recruitment_id": "example-campaign",
+      "job_id": "example-job",
+      "position": "示例岗位",
+      "city": null,
+      "portal": null,
+      "deadline": null,
+      "verified_at": null,
+      "status": "skip",
+      "tier": "C",
+      "channel": "官网",
+      "reason": "仅字段示例，不代表真实岗位",
+      "next_action": "请创建经官方核实的真实记录",
+      "eval": null,
+      "rules_source": null,
+      "resume_version": null,
+      "authorization": {
+        "submit": false,
+        "scope": null,
+        "confirmed_at": null
+      },
+      "owner": null,
+      "recovery": null,
+      "submitted_at": null,
+      "evidence": []
+    }
+  ]
+}
